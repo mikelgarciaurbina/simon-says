@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simon Says</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer type="text/javascript" src="js/level.js"></script>
+    <script defer type="text/javascript" src="js/simon.js"></script>
+    <script defer type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Simon Says</h1>
+    </header>
+    <article>
+      <div class="simon-circle">
+        <ul id="circle">
+          <li data-id="0"></li>
+          <li data-id="1"></li>
+          <li data-id="2"></li>
+          <li data-id="3"></li>
+          <li data-id="4"></li>
+          <li data-id="5"></li>
+        </ul>
+      </div>
+      <div class="data">
+        <p>Round: <span id="round-number">0</span></p>
+        <input type="button" id="play-button" value="Play"></input>
+        <p id="message"></p>
+        <p>Level:</p>
+        <div class="levels">
+          <input type="radio" name="level" value="4" id="low-level" onclick="handleClick(this);"><label for="low-level"> Low-level</label><br>
+          <input type="radio" name="level" value="6" id="medium-level" checked="checked" onclick="handleClick(this);"><label for="medium-level"> Medium-level</label><br>
+          <input type="radio" name="level" value="12" id="high-level" onclick="handleClick(this);"><label for="high-level"> High-level</label>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <p>Created by Mikel Garcia.</p>
+    </footer>
+  </body>
+</html>

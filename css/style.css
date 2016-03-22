@@ -1,0 +1,147 @@
+body {
+  font-family: sans-serif;
+  margin: 0
+}
+
+header {
+  background-color: #33373A;
+  min-height: 100px;
+  color: white;
+}
+
+footer {
+  background-color: #33373A;
+  min-height: 50px;
+  color: white;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  margin: 0;
+  padding-top: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 28px;
+}
+
+.simon-circle {
+  width: 40%;
+  margin: 3%;
+  float: left;
+  background-color: #E4E5E7;
+  padding: 20px;
+}
+
+.data {
+  background-color: #E4E5E7;
+  width: 40%;
+  margin: 3%;
+  padding: 20px;
+  float: left;
+  text-align: center;
+}
+
+#circle {
+  position: relative;
+  border: 1px solid black;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  list-style: none;
+  overflow: hidden;
+}
+
+.levels {
+  text-align: left;
+  width: 25%;
+  margin: auto;
+}
+
+li {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  transform-origin: 0% 100%;
+}
+
+li:first-child {
+  transform: rotate(0deg) skewY(-30deg);
+  background: green;
+  opacity: 0.55;
+}
+li:nth-child(2) {
+  transform: rotate(60deg) skewY(-30deg);
+  background: tomato;
+  opacity: 0.55;
+}
+li:nth-child(3) {
+  transform: rotate(120deg) skewY(-30deg);
+  background: aqua;
+  opacity: 0.55;
+}
+li:nth-child(4) {
+  transform: rotate(180deg) skewY(-30deg);
+  background: yellow;
+  opacity: 0.55;
+}
+li:nth-child(5) {
+  transform: rotate(240deg) skewY(-30deg);
+  background: orange;
+  opacity: 0.55;
+}
+li:nth-child(6) {
+  transform: rotate(300deg) skewY(-30deg);
+  background: purple;
+  opacity: 0.55;
+}
+li:nth-child(7) {
+  transform: rotate(300deg) skewY(-30deg);
+  background: cyan;
+  opacity: 0.55;
+}
+li:nth-child(8) {
+  transform: rotate(300deg) skewY(-30deg);
+  background: brown;
+  opacity: 0.55;
+}
+li:nth-child(9) {
+  transform: rotate(300deg) skewY(-30deg);
+  background: gray;
+  opacity: 0.55;
+}
+li:nth-child(10) {
+  transform: rotate(300deg) skewY(-30deg);
+  background: pink;
+  opacity: 0.55;
+}
+li:nth-child(11) {
+  transform: rotate(300deg) skewY(-30deg);
+  background: maroon;
+  opacity: 0.55;
+}
+li:nth-child(12) {
+  transform: rotate(300deg) skewY(-30deg);
+  background: gold;
+  opacity: 0.55;
+}
+
+#play-button {
+  background-color: #257AB9;
+  width: 100px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  border: 1px solid black;
+}
